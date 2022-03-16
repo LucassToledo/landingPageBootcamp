@@ -88,11 +88,13 @@
 /*FOOTER*/
 
 .footer {
-    display: flex;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .tiendas__img img {
-    height: 30px;
+    height: 40px;
 }
 
 .logo__footer img {
