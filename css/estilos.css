@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*CARD BENEFICIOS*/
+
+/*Cointainer-card*/
+.beneficios {
+    max-width: 1400px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Card*/
+.beneficios__card {
+    width: 200px;
+    position: relative;
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+.beneficios__card:hover {
+    box-shadow: 1px 1px 20px -10px black;
+}
+
+.beneficios__card:hover .beneficios__texto {
+    margin-top: 0;
+}
+
+/*icon*/
+.beneficios__h3 {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.beneficios__h3 img {
+    height: 30px;
+}
+
+/*info*/
+.beneficios__texto {
+    width: 100%;
+    height: 220px;
+    color: aqua;
+    background-color: blue;
+    padding: 20px;
+    margin-top: -220px;
+}
+
+.beneficios__texto p {
+    font-size: 14px;
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    overflow: hidden;
+}
+
+/*Fin de CARD BENEF*/
