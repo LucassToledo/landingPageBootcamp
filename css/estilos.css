@@ -10,9 +10,22 @@
 .beneficios {
     max-width: 1400px;
     padding: 20px;
+}
+
+.gridtop-beneficios {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     margin: auto;
-    display: flex;
-    flex-wrap: wrap;
+
+}
+
+.gridbottom-beneficios {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+
 }
 
 .beneficios__card {
@@ -88,6 +101,10 @@
 /*FOOTER*/
 
 .footer {
+    padding: 20px;
+}
+
+.grid-footer {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
