@@ -22,6 +22,14 @@
     font-family: sans-serif;
 }
 
+.beneficios__card:hover {
+    box-shadow: 1px 1px 20px -10px black;
+}
+
+.beneficios__card:hover .beneficios__texto {
+    margin-top: 0;
+}
+
 /*icon*/
 .beneficios__h3 {
     width: 200px;
@@ -31,6 +39,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 1;
 }
 
 .beneficios__h3 img {
@@ -45,6 +55,17 @@
     background-color: blue;
     padding: 20px;
     margin-top: -220px;
+}
+
+.beneficios__texto p {
+    font-size: 14px;
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    overflow: hidden;
 }
 
 /*Fin de CARD BENEF*/
