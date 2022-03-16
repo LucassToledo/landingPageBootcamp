@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*CARD BENEFICIOS*/
+
+/*Cointainer-card*/
+.beneficios {
+    max-width: 1400px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Card*/
+.beneficios__card {
+    width: 200px;
+    position: relative;
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+/*icon*/
+.beneficios__h3 {
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beneficios__h3 img {
+    height: 30px;
+}
+
+/*info*/
+.beneficios__texto {
+    width: 100%;
+    height: 220px;
+    color: aqua;
+    background-color: blue;
+    padding: 20px;
+    margin-top: -220px;
+}
+
+/*Fin de CARD BENEF*/
