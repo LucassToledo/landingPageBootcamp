@@ -14,9 +14,18 @@ body {
 .container__box {
     max-width: 902px;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 60px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.tituloBeneficios {
+    text-align: center;
+    font-size: 60px;
+    color: #FF643D;
+    margin-top: 80px;
 }
 
 .box {
@@ -72,7 +81,7 @@ body {
     position: absolute;
     bottom: 50px;
     filter: blur(5px);
-    opacity: 0;
+    opacity: 1;
 }
 
 .box:hover h4 {
@@ -82,100 +91,6 @@ body {
     color: #fff;
     transition: all 300ms ease;
 }
-
-/*CARD BENEFICIOS*/
-
-/*Cointainer-card*/
-.beneficios {
-    max-width: 1440px;
-    padding: 20px;
-}
-
-.gridtop-beneficios {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: auto;
-
-}
-
-.gridbottom-beneficios {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: auto;
-
-}
-
-.beneficios__card {
-    width: 350px;
-    position: relative;
-    margin: 20px;
-    padding: 20px;
-    font-family: sans-serif;
-}
-
-.beneficios__card:hover .beneficios__texto {
-    margin-top: -15px;
-}
-
-.beneficios__h3 {
-    width: 100%;
-    height: 200px;
-    background-color: white;
-    padding-left: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 1;
-    border-radius: 15px;
-}
-
-.beneficios__h3 h3 {
-    padding: 15px;
-}
-
-.circulo {
-    width: 80px;
-    height: 80px;
-    background-color: #00599E;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    border-radius: 50%;
-}
-
-.circulo img {
-    height: 45px;;
-}
-
-.beneficios__texto {
-    width: 100%;
-    height: 165px;
-    color: #f2f2f2;
-    background-color: #00599E;
-    padding: 20px;
-    margin-top: -200px;
-    transition: all 300ms;
-    border-radius: 15px;
-    
-}
-
-.beneficios__texto p {
-    font-size: 14px;
-    margin-top: 5px;
-    display: -webkit-box;
-    display: -moz-box;
-    display: box;
-    -webkit-box-orient: vertical;
-    -moz-box-orient: vertical;
-    overflow: hidden;
-}
-
-
-/*Fin de CARD BENEF*/
 
 
 /*FOOTER*/
