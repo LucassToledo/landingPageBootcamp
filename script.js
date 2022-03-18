@@ -1,9 +1,14 @@
-document.getElementById("icon_menu").addEventListener("click", mostrar_menu);
 
-function mostrar_menu(){
-
-    document.querySelector(".menu").classList.toggle("mostrar_menu");
-    
-}
-
-
+var swiper = new Swiper('.slider', {
+    spaceBetween: 30,
+    effect: 'fade',
+    loop: true,
+    mousewheel: {
+      invert: false,
+    },
+    // autoHeight: true,
+    pagination: {
+      el: '.slider__pagination',
+      clickable: true,
+    }
+  });

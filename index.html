@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.css">
     <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Compass</title>
 </head>
 <body>
@@ -86,21 +88,77 @@
             <input type="email" class="formulario" placeholder="    usuario@ejemplo.com">
             <input type="button" class="btn__register-cover" value="Comenzar    🡲">
         </div>
-       
-        <div class="contenedor_reseña">
-            <div class="reseña_contenido">
-                <div class="Tarjeta_reseña">
-                    <div class="Contenido_tarjeta">
-                        <div class="foto_clientes">
-                            <img src="" alt="">
-                        </div>
+
+     
+        <div class="contenedor_reseñas">
+            <div class="slider">
+                <div class="slider__wrp swiper-wrapper">
+              
+                  <div class="slider__item swiper-slide">
+                    <div class="slider__img">
+                      <img src="https://this-person-does-not-exist.com/img/avatar-6c0dde22f0e87b822ed8a2713a8db7cd.jpg" alt="">
                     </div>
+                    <div class="slider__content"> 
+                        <div class="calificacion">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>           
+                      <div class="slider__text">Lorem ipsum dolosr sit amet consectetur, adipisicing elit. Recusandae voluptate Recusandae voluptate repellendus repellendus magni illo ea animi </div>        
+                    </div>
+                  </div>
+                  
+                  <div class="slider__item swiper-slide">
+                    <div class="slider__img">
+                      <img src="https://this-person-does-not-exist.com/img/avatar-65dfb46df4de0f0ac91533551e73b3d7.jpg" alt="">
+                    </div>
+                    <div class="slider__content"> 
+                        <div class="calificacion">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>           
+                      <div class="slider__text">Lorem ipsum dolosr sit amet consectetur, adipisicing elit. Recusandae voluptate Recusandae voluptate repellendus repellendus magni illo ea animi</div>        
+                    </div>
+                  </div>
+                  
+                  <div class="slider__item swiper-slide">
+                    <div class="slider__img">
+                      <img src="https://this-person-does-not-exist.com/img/avatar-65fba338ae674d69cf4b37449f0170cf.jpg" alt="">
+                    </div>
+                    <div class="slider__content">
+                        <div class="calificacion">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>           
+                      <div class="slider__text">Lorem ipsum dolosr sit amet consectetur, adipisicing elit. Recusandae voluptate Recusandae voluptate repellendus repellendus magni illo ea animi</div>        
+                    </div>
+                  </div>                  
                 </div>
+                <div class="slider__pagination"></div>                
+              </div>
+
+              <div class="subtitulo_reseña">
+                <h1>Conoce a nuestros aventureros </h1>
             </div>
-            <div class="subtitulo_reseña">
-                <h1>Conoce a nuestros aventureros</h1>
-            </div>
+
         </div>
+              
+            
+    
+
+
+                
+            
+        
+     
     
         <div class="subtitulo">
              <h1>Equipos que ya salieron a la aventura con Compass</h1>
@@ -134,11 +192,14 @@
             <div class="img_camino"> <img src="/9800-01.png" alt=""></div>    
         </div>
 
+       
+       
+
         
     </main>
 
     <footer class="footer">
-        <img src="images/Compass_Logo_grises.png" alt="" class="logo">  
+        <img src="images/Compass_Logo_grises.png" alt="" class="logo_footer">  
         <div class="socialmedia">
             <a href="#" class="icono"></a>
             <a href="#" class="icono"></a>
@@ -153,5 +214,8 @@
         <span class="copyright">&copy; Copyright 2022. Todos los derechos reservados.</span>
     </footer>
     
+
+    <script type="" src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
