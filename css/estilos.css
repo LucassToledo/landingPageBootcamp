@@ -2,20 +2,92 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: 300ms;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     width: 100%;
+    background-color: #f3f3f3;
+}
+
+
+.container__box {
+    max-width: 902px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 250px;
+    height: 200px;
+    background-color: #fff;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 300ms ease;
     position: relative;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px -15px rgba(0, 0, 0, 0.5);
+    background: #00599E;
+    z-index: 1;
+}
+
+.box img {
+    width: 60px;
+}
+
+.box i {
+    font-size: 60px;
+    color: #00599E;
+
+}
+
+.box:hover i {
+    color: #fff;
+}
+
+.box h5 {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #121212;
+}
+
+.box:hover h5 {
+    color: #fff;
+    opacity: 0;
+
+}
+
+.box h4 {
+    font-size: 18px;
+    color: #fff;
+    position: absolute;
+    bottom: 50px;
+    filter: blur(5px);
+    opacity: 0;
+}
+
+.box:hover h4 {
+    opacity: 1;
+    font-size: 16px;
+    filter: blur(0px);
+    color: #fff;
+    transition: all 300ms ease;
 }
 
 /*CARD BENEFICIOS*/
 
 /*Cointainer-card*/
 .beneficios {
-    max-width: 1400px;
+    max-width: 1440px;
     padding: 20px;
 }
 
@@ -50,7 +122,7 @@ body {
 .beneficios__h3 {
     width: 100%;
     height: 200px;
-    background-color: grey;
+    background-color: white;
     padding-left: 15px;
     display: flex;
     justify-content: center;
@@ -81,9 +153,9 @@ body {
 
 .beneficios__texto {
     width: 100%;
-    height: 200px;
-    color: aqua;
-    background-color: blue;
+    height: 165px;
+    color: #f2f2f2;
+    background-color: #00599E;
     padding: 20px;
     margin-top: -200px;
     transition: all 300ms;
@@ -93,7 +165,7 @@ body {
 
 .beneficios__texto p {
     font-size: 14px;
-    margin-top: 10px;
+    margin-top: 5px;
     display: -webkit-box;
     display: -moz-box;
     display: box;
@@ -102,6 +174,7 @@ body {
     overflow: hidden;
 }
 
+
 /*Fin de CARD BENEF*/
 
 
@@ -109,7 +182,7 @@ body {
 
 .footer {
     width: 100%;
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     padding: 2rem 8%;
@@ -136,14 +209,14 @@ body {
 .icono {
     height: 50px;
     width: 50px;
-    border-radius: 50px;
+    border-radius: 40px;
     border: 1px solid #f2f2f2;
     background-image: url(/images/facebook.png);
     background-color: #f2f2f2;
     background-position: center;
     background-size: 40%;
     background-repeat: no-repeat;
-    margin: 1 rem;
+    margin: 1rem;
 }
 
 .icon:hover {
